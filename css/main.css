@@ -1,0 +1,327 @@
+/*   Modified From Jacopo Perego and Weijie Zhong's source code    */ 
+/* Navigation Bar */
+/* Written by Xin Yi */
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background-color: #151C55;
+
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+
+.navbar-custom .nav li.active {
+    outline: none;
+    background-color: #8A704C ;/* COLOR OF SELCECTED TAB IN NAVBAR */
+    border-radius: 2px;
+}
+
+.navbar-custom.top-nav-collapse li.active {
+    outline: none;
+    background-color: #151C55 ;/* COLOR OF SELCECTED TAB IN NAVBAR */
+    border-radius: 2px;
+}
+
+.navbar-custom .nav li a {
+/*  -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    border-radius: 30px;*/
+
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    border-radius: 0px;
+    background-color: #8A704C;  /* SMU Gold */
+}
+
+.navbar-custom.top-nav-collapse .nav li a:hover,
+.navbar-custom.top-nav-collapse .nav li a:focus,
+.navbar-custom.top-nav-collapse .nav li a.active {
+    outline: 0;
+    border-radius: 0px;
+    background-color: #151C55;  /* SMU Blue */
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 0px;
+        background: #151C55 ;    /*BACKGROUND COLOR OF HOMEPAGE NAVBAR: SMU Blue*/
+        -webkit-transition: background 1s ease-in-out,padding 1s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background 1s ease-in-out,padding 1s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #8A704C; /* COLOR OF NAVBAR BACKGROUND*/
+        opacity: 1; 
+        transition: background 1s ease-in-out,padding 1s ease-in-out;
+        -webkit-transition: background 1s ease-in-out,padding 1s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+}
+
+/* Profile Image, Contact, and Biography */
+.container-cover{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container-cover {
+    width: 550px;
+  }
+}
+@media (min-width: 992px) {
+  .containter-cover {
+    width: 770px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-cover {
+    width: 970px;
+  }
+} 
+
+.section-left{
+  float:left;
+  width: 40%;
+/*  margin-left: 23%; */
+  display: table;
+}
+
+aside{
+  float:right;
+  width: 45%;
+  margin-top: 20%;
+  margin-bottom: 5%;
+/*  margin-right: 20%; */
+}
+
+.authorname{
+  font-family: Helvetica;
+}
+
+.brand-heading{
+  color: #303030;
+  border-bottom: solid 0px #303030; 
+  margin-bottom: 0px; 
+  padding-top:0px; 
+  font-size: 28pt;
+/*  text-align: center;  */
+  letter-spacing: 0px;
+}
+
+
+
+.biography{
+  clear: both;
+  margin-top: 6px;
+  margin-bottom: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; 
+  font-size: 12.5pt;
+}
+
+@media (min-width: 768px) {
+  .biography {
+    width: 550px;
+  }
+}
+@media (min-width: 992px) {
+  .biography {
+    width: 770px;
+  }
+}
+@media (min-width: 1200px) {
+  .biography {
+    width: 970px;
+  }
+} 
+
+/* if the browser window is at least 1000px-s wide: 
+@media screen and (min-width: 768px) {
+  .cover-table {
+  width: 10%;}
+}
+
+
+@media screen and (min-width: 992px) {
+  .cover-table {
+  width: 10%;}
+}
+
+@media screen and (min-width: 1200px) {
+  .cover-table {
+  width: 10%;}
+} */
+
+
+
+html.no-touch .outfill:hover .fill{
+  transform: perspective(1200px) rotateY(-13deg);
+  opacity: 1;
+}
+
+
+/* Primary Section Title */
+
+.section-title{
+	font-weight: 700;
+  font-size: 24pt;
+}
+
+
+/* Separation Line */
+hr {
+  height:2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border-style: inset;
+  border: 0;
+  background-color: #005C96;
+}
+
+/* Paper and CV Related */
+
+.paper-title{
+	margin-top: 40px;
+	font-size: 14pt;
+	margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.teach-pos{
+	margin-top: 40px;
+	font-size: 18pt;
+	margin-bottom: 10px;
+}
+/* Written by Xin Yi */
+
+
+.sub-section-title{
+  margin-top: 40px;
+  font-size: 18pt;
+  margin-bottom: 15px;
+}
+
+.cv-item{
+	margin-top: 40px;
+	font-size: 18pt;
+	margin-bottom: 10px;
+}
+
+.li-sub{
+  font-size: 12.5pt;
+}
+
+#research .short{
+	font-size:12.5pt;
+	margin-bottom: 0px;
+  display:block;
+	cursor:pointer;
+	color:grey;
+  line-height: 1.5;
+}
+
+#research .long{
+	font-size:12.5pt;
+	margin-bottom: 0px;	
+	display:none;
+	cursor:pointer;
+  line-height: 1.5;
+}
+
+.long p{
+margin:0.5em;
+}
+
+.abs{
+	display:none
+}
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 550px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 770px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container a{
+  text-decoration:none;
+  color:blue;
+}
+
+
+.abstract{
+  font-weight: normal;
+  margin-left: 45px;
+}
+
+.coauthors{
+  margin-left: 40px; 
+  margin-top:20px; 
+  font-size: 12.5pt;
+}
+
+
+
+
+
