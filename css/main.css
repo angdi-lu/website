@@ -98,7 +98,7 @@
    margin-right: auto;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .container-cover {
     width: 550px;
   }
@@ -112,7 +112,7 @@
   .container-cover {
     width: 970px;
   }
-} */
+} 
 
 .section-left{
   float:left;
@@ -156,7 +156,7 @@ aside{
   font-size: 12.5pt;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .biography {
     width: 550px;
   }
@@ -170,7 +170,7 @@ aside{
   .biography {
     width: 970px;
   }
-} */
+} 
 
 /* if the browser window is at least 1000px-s wide: 
 @media screen and (min-width: 768px) {
