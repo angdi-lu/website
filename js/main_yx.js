@@ -78,11 +78,11 @@ $(document).ready(function() {
 		
 		$('*').css('transition-property','none');
 		$('.col').css("width",currentSize+'px');
-		$('.col1').css("min-height",firstHeight+'px');
+		$('.container text-left').css("min-height",firstHeight+'px');
 		$('section-title').css("height",navHeight+'px');
 
 		
-		$(".col1").css("font-size", newFontSize + 'px');
+		$(".container text-left").css("font-size", newFontSize + 'px');
 		$('.col').css("font-size", paraFontSize+ 'px');
 		$('section-title').css("font-size",newFontSize+'px')
 	};
