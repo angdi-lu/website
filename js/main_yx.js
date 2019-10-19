@@ -79,7 +79,7 @@ $(document).ready(function() {
 		$('*').css('transition-property','none');
 		$('.col').css("width",currentSize+'px');
 		$('.col1').css("min-height",firstHeight+'px');
-		$('pagetitle').css("height",navHeight+'px');
+		$('section-title').css("height",navHeight+'px');
 
 		
 		$(".col1").css("font-size", newFontSize + 'px');
