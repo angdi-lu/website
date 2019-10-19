@@ -84,6 +84,6 @@ $(document).ready(function() {
 		
 		$(".col1").css("font-size", newFontSize + 'px');
 		$('.col').css("font-size", paraFontSize+ 'px');
-		$('sectiontitle').css("font-size",newFontSize+'px')
+		$('section-title').css("font-size",newFontSize+'px')
 	};
 })
