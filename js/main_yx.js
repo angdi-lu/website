@@ -16,7 +16,7 @@ $(document).ready(function() {
 	});
 	$('.short').each(function(){
 		$(this).find('p').append("<a> [&#9662More]</a>")
-	});
+	});››
 });
 
 
@@ -26,7 +26,7 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     }
 });
 
-$(document).ready(function() {
+/* $(document).ready(function() {
 	resizeText();
 	var resizeId;
 	$(window).on('resize', function() {
@@ -42,11 +42,11 @@ $(document).ready(function() {
 		// Standard height, for which the body font size is correct
 		var preferredFontSize = 16; // %
 
-/*		var preferredSize = 1920 * 1080;
+		var preferredSize = 1920 * 1080;
 		var currentSize = $(window).width() * $(window).height();
 		var scalePercentage = Math.sqrt(currentSize) / Math.sqrt(preferredSize);
 		scalePercentage = Math.sqrt(scalePercentage);
-		var newFontSize = preferredFontSize * scalePercentage; */
+		var newFontSize = preferredFontSize * scalePercentage; 
 
 		var preferredNumber = 70
 		var currentSize = $(window).width()/Math.pow(Math.max(1,0.6*$(window).width()/$(window).height()),0.6)
@@ -86,4 +86,4 @@ $(document).ready(function() {
 		$('.col').css("font-size", paraFontSize+ 'px');
 		$('section-title').css("font-size",newFontSize+'px')
 	};
-})
+})  */
