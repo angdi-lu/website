@@ -16,7 +16,7 @@ $(document).ready(function() {
 	});
 	$('.short').each(function(){
 		$(this).find('p').append("<a> [&#9662More]</a>")
-	});››
+	});
 });
 
 
