@@ -42,7 +42,7 @@ $(document).ready(function() {
 		// Standard height, for which the body font size is correct
 		var preferredFontSize = 16; // %
 
-/*		var preferredSize = 1920 * 1080;
+	/*	var preferredSize = 1920 * 1080;
 		var currentSize = $(window).width() * $(window).height();
 		var scalePercentage = Math.sqrt(currentSize) / Math.sqrt(preferredSize);
 		scalePercentage = Math.sqrt(scalePercentage);
