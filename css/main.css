@@ -296,6 +296,15 @@ margin:0.5em;
   margin-left: auto;
   display:block;
 }
+
+
+.container-alt {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display:block;
+}
 /* @media (min-width: 768px) {
   .container {
     width: 550px;
