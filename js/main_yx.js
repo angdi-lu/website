@@ -48,7 +48,7 @@ function resizeText() {
 		scalePercentage = Math.sqrt(scalePercentage);
 		var newFontSize = preferredFontSize * scalePercentage;  */
 
-		var preferredNumber = 90
+		var preferredNumber = 200
 		var currentSize = $(window).width()/Math.pow(Math.max(1,0.6*$(window).width()/$(window).height()),0.6)
 		var currentSizeP
 		var currentSizeC
