@@ -83,7 +83,7 @@ function resizeText() {
 		
 		if (currentSize<=767){
 		$('*').css('transition-property','none');
-		$('.container-alt').css("width",currentSize*0.99+'px');
+		$('.container-alt').css("width",currentSize*0.97+'px');
 		$('.col1').css("min-height",firstHeight+'px');
 		$('section-title').css("height",navHeight+'px');
  
