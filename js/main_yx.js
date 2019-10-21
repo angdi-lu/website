@@ -77,13 +77,13 @@ function resizeText() {
 		}
 		var newFontSize = Math.round(currentSizeC/preferredNumber); 
 		var firstHeight = Math.max(50*newFontSize,$(window).height());
-		var paraFontSize = Math.max(Math.round(currentSizeP/preferredNumber),12);
+		var paraFontSize = Math.max(Math.round(currentSizeP/preferredNumber),12)*0.5;
 		var baseLength = 8 * newFontSize;
 		var navHeight = baseLength +0.5*newFontSize;
 		
 		if (currentSize<=767){
 		$('*').css('transition-property','none');
-		$('.container-alt').css("width",currentSizeNew+'px');
+		$('.container-alt').css("width",currentSize+'px');
 		$('.col1').css("min-height",firstHeight+'px');
 		$('section-title').css("height",navHeight+'px');
  
