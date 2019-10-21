@@ -56,24 +56,24 @@ function resizeText() {
 		var fontLargeP=1.5
 		var fontLargeC=1.5
 		if (currentSize >2560 ){
-			currentSize=2560*ratio;
+			currentSizeNew=2560*ratio;
 			currentSizeP=currentSize;
 			currentSizeC=currentSize
 		}
 		else if (currentSize<400){
-			currentSize=currentSize*0.95;
+			currentSizeNew=currentSize*0.95;
 			currentSizeC=currentSize*fontLargeC;
 			currentSizeP=currentSize*fontLargeP
 		}
 		else if (currentSize<767){
 			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize;
 			currentSizeC=(ratio+Math.pow((2560-currentSize)/2160,3)*(fontLargeC-ratio))*currentSize;
-			currentSize=(0.70-(0.70-ratio)*(currentSize-400)/2160)*currentSize;
+			currentSizeNew=(0.70-(0.70-ratio)*(currentSize-400)/2160)*currentSize;
 		}
 		else {
 			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize;
 			currentSizeC=(ratio+Math.pow((2560-currentSize)/2160,3)*(fontLargeC-ratio))*currentSize;
-			currentSize=(0.90-(0.90-ratio)*(currentSize-400)/2160)*currentSize;
+			currentSizeNew=(0.90-(0.90-ratio)*(currentSize-400)/2160)*currentSize;
 		}
 		var newFontSize = Math.round(currentSizeC/preferredNumber); 
 		var firstHeight = Math.max(50*newFontSize,$(window).height());
@@ -81,14 +81,28 @@ function resizeText() {
 		var baseLength = 8 * newFontSize;
 		var navHeight = baseLength +0.5*newFontSize;
 		
+		if (currentSize<767){
 		$('*').css('transition-property','none');
 		$('.container-alt').css("width",currentSize+'px');
 		$('.col1').css("min-height",firstHeight+'px');
 		$('section-title').css("height",navHeight+'px');
-
+ 
 		
 		$(".col1").css("font-size", newFontSize + 'px');
 		$('.container-alt').css("font-size", paraFontSize+ 'px');
 		$('section-title').css("font-size",newFontSize+'px')
+		}
+
+		else {
+		$('*').css('transition-property','none');
+		$('.container-alt').css("width",currentSizeNew+'px');
+		$('.col1').css("min-height",firstHeight+'px');
+		$('section-title').css("height",navHeight+'px');
+ 
+		
+		$(".col1").css("font-size", newFontSize + 'px');
+		$('.container-alt').css("font-size", paraFontSize+ 'px');
+		$('section-title').css("font-size",newFontSize+'px')	
+		}
 	};
 }) 
