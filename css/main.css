@@ -242,10 +242,10 @@ margin:0.5em;
   font-weight:400;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .container-alt {
     width: 750px;
-    margin-left:-20px;
+    margin-left: -20px;
   }
 }
 @media (min-width: 992px) {
