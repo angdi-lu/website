@@ -49,7 +49,7 @@ function resizeText() {
 		var newFontSize = preferredFontSize * scalePercentage;  
 
 		var preferredNumber = 70
-		var currentSize = $(window).width()/Math.pow(Math.max(1,0.6*$(window).width()/$(window).height()),0.6)
+/*		var currentSize = $(window).width()/Math.pow(Math.max(1,0.6*$(window).width()/$(window).height()),0.6)
 		var currentSizeP
 		var currentSizeC
 		var ratio=0.5
@@ -70,7 +70,7 @@ function resizeText() {
 			currentSizeC=(ratio+Math.pow((2560-currentSize)/2160,3)*(fontLargeC-ratio))*currentSize;
 			currentSize=(0.95-(0.95-ratio)*(currentSize-400)/2160)*currentSize;
 		}
-		var newFontSize = Math.round(currentSizeC/preferredNumber);
+		var newFontSize = Math.round(currentSizeC/preferredNumber); */
 		var firstHeight = Math.max(50*newFontSize,$(window).height());
 		var paraFontSize = Math.max(Math.round(currentSizeP/preferredNumber),12);
 		var baseLength = 8 * newFontSize;
