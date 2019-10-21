@@ -55,7 +55,7 @@ function resizeText() {
 		var ratio=0.5
 		var fontLargeP=1.5
 		var fontLargeC=1.5
-		if (currentSize >900 ){
+		if (currentSize >2560 ){
 			currentSize=2560*ratio;
 			currentSizeP=currentSize;
 			currentSizeC=currentSize
