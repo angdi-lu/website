@@ -299,11 +299,15 @@ margin:0.5em;
 
 
 .container-alt {
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   display:block;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  word-break:break-word;
+  hyphens: auto;
 }
 
 @media (min-width: 768px) {
