@@ -68,7 +68,7 @@ function resizeText() {
 		else if (currentSize<=767){
 			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize;
 			currentSizeC=(ratio+Math.pow((2560-currentSize)/2160,3)*(fontLargeC-ratio))*currentSize;
-			currentSizeNew=(0.70-(0.70-ratio)*(currentSize-400)/2160)*currentSize;
+			currentSizeNew=(0.90-(0.90-ratio)*(currentSize-400)/2160)*currentSize;
 		}
 		else {
 			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize;
@@ -92,6 +92,7 @@ function resizeText() {
 		$('.container-alt').css("font-size", paraFontSize+ 'px');
 		$('.long').css("font-size", paraFontSize+ 'px');
 		$('.paper-title').css("font-size", '14px');
+		$('.coauthors').css("font-size", '14px');
 		$('section-title').css("font-size",newFontSize+'px');
 		}
 
