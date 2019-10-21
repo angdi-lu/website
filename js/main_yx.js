@@ -91,7 +91,7 @@ function resizeText() {
 		$(".col1").css("font-size", newFontSize + 'px');
 		$('.container-alt').css("font-size", paraFontSize+ 'px');
 		$('.long').css("font-size", paraFontSize+ 'px');
-		$('.paper-title').css("font-size", newFontSize+ 'px');
+		$('.paper-title').css("font-size", '14px');
 		$('section-title').css("font-size",newFontSize+'px');
 		}
 
