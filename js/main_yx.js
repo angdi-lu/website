@@ -65,10 +65,15 @@ function resizeText() {
 			currentSizeC=currentSize*fontLargeC;
 			currentSizeP=currentSize*fontLargeP
 		}
-		else {
+		else if (currentSize<767){
 			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize;
 			currentSizeC=(ratio+Math.pow((2560-currentSize)/2160,3)*(fontLargeC-ratio))*currentSize;
 			currentSize=(0.70-(0.70-ratio)*(currentSize-400)/2160)*currentSize;
+		}
+		else {
+			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize;
+			currentSizeC=(ratio+Math.pow((2560-currentSize)/2160,3)*(fontLargeC-ratio))*currentSize;
+			currentSize=(0.90-(0.90-ratio)*(currentSize-400)/2160)*currentSize;
 		}
 		var newFontSize = Math.round(currentSizeC/preferredNumber); 
 		var firstHeight = Math.max(50*newFontSize,$(window).height());
