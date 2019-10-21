@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 function resizeText() {
 		// Standard height, for which the body font size is correct
-		var preferredFontSize = 14; // % 
+		var preferredFontSize = 16; // % 
 
 /*     	var preferredSize = 1920 * 1080;
 		var currentSize = $(window).width() * $(window).height();
@@ -48,7 +48,7 @@ function resizeText() {
 		scalePercentage = Math.sqrt(scalePercentage);
 		var newFontSize = preferredFontSize * scalePercentage;  */
 
-		var preferredNumber = 70
+		var preferredNumber = 90
 		var currentSize = $(window).width()/Math.pow(Math.max(1,0.6*$(window).width()/$(window).height()),0.6)
 		var currentSizeP
 		var currentSizeC
