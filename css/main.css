@@ -157,10 +157,12 @@ aside{
   display:block; */
 
 .biography{
-   clear: both;
-   margin-left: auto;
-   margin-right: auto;
-   display:block;
+  clear:both;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display:block;
 }
 
 /* @media (min-width: 768px) {
