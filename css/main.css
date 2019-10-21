@@ -234,7 +234,7 @@ margin:0.5em;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  display:block;
+  display:table;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
