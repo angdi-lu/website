@@ -66,7 +66,7 @@ function resizeText() {
 			currentSizeP=currentSize*fontLargeP
 		}
 		else if (currentSize<767){
-			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize;
+			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize*0.5;
 			currentSizeC=(ratio+Math.pow((2560-currentSize)/2160,3)*(fontLargeC-ratio))*currentSize;
 			currentSizeNew=(0.70-(0.70-ratio)*(currentSize-400)/2160)*currentSize;
 		}
