@@ -305,6 +305,23 @@ margin:0.5em;
   margin-left: auto;
   display:block;
 }
+
+@media (min-width: 768px) {
+  .container-alt {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container-alt {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-alt {
+    width: 1170px;
+  }
+}
+
 /* @media (min-width: 768px) {
   .container {
     width: 550px;
