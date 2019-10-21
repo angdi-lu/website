@@ -95,7 +95,7 @@ function resizeText() {
 		$('.biography').css("font-size", '12px');
 		$('.paper-title').css("font-size", '14px');
 		$('.coauthors').css("font-size", '14px');
-		$('.li-sub').css("font-size", '14px');
+		$('.li-sub').css("font-size", '12px');
 		$('section-title').css("font-size",newFontSize+'px');
 		}
 
