@@ -77,7 +77,7 @@ function resizeText() {
 		}
 		var newFontSize = Math.round(currentSizeC/preferredNumber); 
 		var firstHeight = Math.max(50*newFontSize,$(window).height());
-		var paraFontSize = Math.max(Math.round(currentSizeP/preferredNumber),12)*0.05;
+		var paraFontSize = Math.max(Math.round(currentSizeP/preferredNumber),12);
 		var baseLength = 8 * newFontSize;
 		var navHeight = baseLength +0.5*newFontSize;
 		
