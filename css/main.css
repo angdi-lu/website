@@ -281,6 +281,7 @@ margin:0.5em;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  display:block;
 }
 @media (min-width: 768px) {
   .container {
