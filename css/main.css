@@ -283,7 +283,7 @@ margin:0.5em;
   margin-left: auto;
   display:block;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container {
     width: 550px;
   }
@@ -297,7 +297,7 @@ margin:0.5em;
   .container {
     width: 970px;
   }
-}
+} */
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
