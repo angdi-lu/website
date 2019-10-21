@@ -155,9 +155,10 @@ aside{
   margin-right: auto;
   margin-left: auto; 
   font-size: 12.5pt;
+  display:block;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .biography {
     width: 550px;
   }
@@ -171,7 +172,7 @@ aside{
   .biography {
     width: 970px;
   }
-} 
+} */
 
 /* if the browser window is at least 1000px-s wide: 
 @media screen and (min-width: 768px) {
