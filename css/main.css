@@ -163,6 +163,7 @@ aside{
   margin-right: auto;
   margin-left: auto;
   display:block;
+  font-size: 12.5pt;  
 }
 
 /* @media (min-width: 768px) {
