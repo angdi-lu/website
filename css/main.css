@@ -245,7 +245,7 @@ margin:0.5em;
 @media (min-width: 768px) {
   .container-alt {
     width: 750px;
-    padding:0 20px;
+    margin-left:-20px;
   }
 }
 @media (min-width: 992px) {
