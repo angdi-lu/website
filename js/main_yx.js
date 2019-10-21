@@ -77,13 +77,13 @@ function resizeText() {
 		var navHeight = baseLength +0.5*newFontSize;
 		
 		$('*').css('transition-property','none');
-		$('.col').css("width",currentSize+'px');
-		$('.container-alt').css("min-height",firstHeight+'px');
+		$('.container-alt').css("width",currentSize+'px');
+		$('.col1').css("min-height",firstHeight+'px');
 		$('.section-title').css("height",navHeight+'px');
 
 		
-		$(".container-alt").css("font-size", newFontSize + 'px');
-		$('.col').css("font-size", paraFontSize+ 'px');
+		$(".col1").css("font-size", newFontSize + 'px');
+		$('.container-alt').css("font-size", paraFontSize+ 'px');
 		$('.section-title').css("font-size",newFontSize+'px')
 	};
 }) 
