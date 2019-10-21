@@ -230,8 +230,8 @@ margin:0.5em;
 
 
 .container-alt {
-  margin-right: auto-10%;
-  margin-left: auto+2%;
+  margin-right: auto;
+  margin-left: auto;
   display:block;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
