@@ -38,15 +38,15 @@ $(document).ready(function() {
 		$('*').css('transition-property','');
 	});
 
-	/*	function resizeText() {
+function resizeText() {
 		// Standard height, for which the body font size is correct
 		var preferredFontSize = 16; // %
 
-	var preferredSize = 1920 * 1080;
+/*   	var preferredSize = 1920 * 1080;
 		var currentSize = $(window).width() * $(window).height();
 		var scalePercentage = Math.sqrt(currentSize) / Math.sqrt(preferredSize);
 		scalePercentage = Math.sqrt(scalePercentage);
-		var newFontSize = preferredFontSize * scalePercentage; 
+		var newFontSize = preferredFontSize * scalePercentage;  */
 
 		var preferredNumber = 70
 		var currentSize = $(window).width()/Math.pow(Math.max(1,0.6*$(window).width()/$(window).height()),0.6)
@@ -78,12 +78,12 @@ $(document).ready(function() {
 		
 		$('*').css('transition-property','none');
 		$('.col').css("width",currentSize+'px');
-		$('.col1').css("min-height",firstHeight+'px');
-		$('section-title').css("height",navHeight+'px');
+		$('.container-alt').css("min-height",firstHeight+'px');
+		$('.section-title').css("height",navHeight+'px');
 
 		
-		$(".col1").css("font-size", newFontSize + 'px');
+		$(".container-alt").css("font-size", newFontSize + 'px');
 		$('.col').css("font-size", paraFontSize+ 'px');
-		$('section-title').css("font-size",newFontSize+'px')
+		$('.section-title').css("font-size",newFontSize+'px')
 	};
-}) */
+}) 
