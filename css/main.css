@@ -2,6 +2,10 @@
 /* Navigation Bar */
 /* Written by Xin Yi */
 
+*{
+  margin:0pt;
+}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
