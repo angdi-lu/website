@@ -66,7 +66,7 @@ function resizeText() {
 			currentSizeP=currentSize*fontLargeP
 		}
 		else if (currentSize<=767){
-			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize*0.1;
+			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize;
 			currentSizeC=(ratio+Math.pow((2560-currentSize)/2160,3)*(fontLargeC-ratio))*currentSize;
 			currentSizeNew=(0.70-(0.70-ratio)*(currentSize-400)/2160)*currentSize;
 		}
@@ -81,9 +81,9 @@ function resizeText() {
 		var baseLength = 8 * newFontSize;
 		var navHeight = baseLength +0.5*newFontSize;
 		
-		if (currentSize<767){
+		if (currentSize<=767){
 		$('*').css('transition-property','none');
-		$('.container-alt').css("width",currentSize+'px');
+		$('.container-alt').css("width",currentSizeNew+'px');
 		$('.col1').css("min-height",firstHeight+'px');
 		$('section-title').css("height",navHeight+'px');
  
