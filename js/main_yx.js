@@ -79,11 +79,11 @@ function resizeText() {
 		$('*').css('transition-property','none');
 		$('.container-alt').css("width",currentSize+'px');
 		$('.col1').css("min-height",firstHeight+'px');
-		$('.section-title').css("height",navHeight+'px');
+		$('section-title').css("height",navHeight+'px');
 
 		
 		$(".col1").css("font-size", newFontSize + 'px');
 		$('.container-alt').css("font-size", paraFontSize+ 'px');
-		$('.section-title').css("font-size",newFontSize+'px')
+		$('section-title').css("font-size",newFontSize+'px')
 	};
 }) 
