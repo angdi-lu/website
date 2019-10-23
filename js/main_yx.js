@@ -126,6 +126,8 @@ function resizeText() {
         $('aside').css("width", '45%')
         $('aside').css("margin-right", '0%')        
 		$('aside').css("margin-top", '20%')
+		$('.container-profile').css("font-size", '12.5px');
+
  
 		
 		$(".col1").css("font-size", newFontSize + 'px');
