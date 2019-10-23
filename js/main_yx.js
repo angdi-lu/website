@@ -92,7 +92,7 @@ function resizeText() {
         $('.section-left').css("width", '50%')
         $('.section-left').css("float", 'left')
         $('img').css("margin-left", '-20px')
-        $('img').css("max-width", '90%')
+        $('img').css("max-width", '100%')
         $('aside').css("width", '45%')
         $('aside').css("margin-right", '5%')        
 		
