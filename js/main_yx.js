@@ -89,7 +89,7 @@ function resizeText() {
 
 
 		$('.container-profile').css("width", currentSize*0.9+'px');
-        $('.section-left').css("width", '55%')
+        $('.section-left').css("width", '50%')
         $('.section-left').css("float", 'left')
         $('img').css("float", 'left')
         $('aside').css("width", '45%')
