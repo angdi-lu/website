@@ -90,7 +90,7 @@ function resizeText() {
         
         $('.section-left').css("width", '55%')
         $('aside').css("width", '45%')
-
+        $('table').css("text-align", 'left')
 		
 		$(".col1").css("font-size", newFontSize + 'px');
 		$('.container-alt').css("font-size", paraFontSize+ 'px');
