@@ -83,10 +83,10 @@ function resizeText() {
 		
 		if (currentSize<=767){
 		$('*').css('transition-property','none');
-		$('.container-alt').css("width",currentSize*0.95+'px');
+		$('.container-alt').css("width",currentSize*0.99+'px');
 		$('.col1').css("min-height",firstHeight+'px');
 		$('section-title').css("height",navHeight+'px');
-		$('.container-profile').css("width", currentSize*0.99+'px');
+		$('.container-profile').css("width", currentSize*0.95+'px');
  
 		
 		$(".col1").css("font-size", newFontSize + 'px');
