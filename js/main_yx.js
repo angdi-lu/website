@@ -116,6 +116,16 @@ function resizeText() {
 		$('.container-profile').css("width",currentSizeNew*0.9+'px');
 		$('.col1').css("min-height",firstHeight+'px');
 		$('section-title').css("height",navHeight+'px');
+
+
+		$('.section-left').css("width", '40%')
+        $('.section-left').css("float", 'left')
+        $('img').css("margin-left", '50px')
+        $('img').css("max-width", '90%')
+        $('img').css("margin-top", '120px')
+        $('aside').css("width", '45%')
+        $('aside').css("margin-right", '0%')        
+		$('aside').css("margin-top", '20%')
  
 		
 		$(".col1").css("font-size", newFontSize + 'px');
