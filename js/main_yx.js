@@ -93,7 +93,7 @@ function resizeText() {
         $('.section-left').css("float", 'left')
         $('img').css("margin-left", '-20px')
         $('aside').css("width", '45%')
-        $('aside').css("margin-right", '10px')        
+        $('aside').css("padding-right", '10px')        
 		
 		$(".col1").css("font-size", newFontSize + 'px');
 		$('.container-alt').css("font-size", paraFontSize+ 'px');
