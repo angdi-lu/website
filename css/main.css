@@ -261,6 +261,36 @@ margin:0.5em;
 }
 
 
+.container-profile {
+  margin-right: auto;
+  margin-left: auto;
+  display:block;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  word-break:break-word;
+  hyphens: auto;
+  font-weight:400;
+}
+
+@media (max-width: 768px) {
+  .container-alt {
+    width: 750px;
+    margin-left: -40px;
+  }
+}
+@media (min-width: 992px) {
+  .container-alt {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-alt {
+    width: 1170px;
+  }
+}
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
