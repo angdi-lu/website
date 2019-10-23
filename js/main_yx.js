@@ -89,11 +89,11 @@ function resizeText() {
 
 
 		$('.container-profile').css("width", currentSize*0.9+'px');
-        $('.section-left').css("width", '55%')
+        $('.section-left').css("width", '52%')
         $('.section-left').css("float", 'left')
         $('img').css("margin-left", '-20px')
         $('aside').css("width", '45%')
-        $('aside').css("padding-right", '10px')        
+        $('aside').css("margin-right", '3%')        
 		
 		$(".col1").css("font-size", newFontSize + 'px');
 		$('.container-alt').css("font-size", paraFontSize+ 'px');
