@@ -98,7 +98,7 @@ function resizeText() {
 		
 		$(".col1").css("font-size", newFontSize + 'px');
 		$('.container-alt').css("font-size", paraFontSize+ 'px');
-		$('.container-profile').css("font-size", '9.5px');
+		$('.container-profile').css("font-size", '9px');
 		$('.long').css("font-size", paraFontSize+ 'px');
 		$('.short').css("font-size", '14px');
 		$('.biography').css("font-size", '12px');
