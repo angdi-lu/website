@@ -113,7 +113,7 @@ function resizeText() {
 		else {
 		$('*').css('transition-property','none');
 		$('.container-alt').css("width",currentSizeNew+'px');
-		$('.container-profile').css("width",currentSizeNew*0.9+'px');
+		$('.container-profile').css("width",currentSizeNew+'px');
 		$('.col1').css("min-height",firstHeight+'px');
 		$('section-title').css("height",navHeight+'px');
  
