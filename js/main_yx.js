@@ -86,6 +86,8 @@ function resizeText() {
 		$('.container-alt').css("width",currentSize*0.95+'px');
 		$('.col1').css("min-height",firstHeight+'px');
 		$('section-title').css("height",navHeight+'px');
+		$('.container-profile').css("width", currentSize*0.95+'px');
+
  
 		
 		$(".col1").css("font-size", newFontSize + 'px');
