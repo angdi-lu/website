@@ -65,7 +65,7 @@ function resizeText() {
 			currentSizeC=currentSize*fontLargeC;
 			currentSizeP=currentSize*fontLargeP
 		}
-		else if (currentSize<=700){
+		else if (currentSize<=767){
 			currentSizeP=(ratio+Math.pow((2560-currentSize)/2160,2)*(fontLargeP-ratio))*currentSize;
 			currentSizeC=(ratio+Math.pow((2560-currentSize)/2160,3)*(fontLargeC-ratio))*currentSize;
 			currentSizeNew=(0.90-(0.90-ratio)*(currentSize-400)/2160)*currentSize;
@@ -81,7 +81,7 @@ function resizeText() {
 		var baseLength = 8 * newFontSize;
 		var navHeight = baseLength +0.5*newFontSize;
 		
-		if (currentSize<=700){
+		if (currentSize<=767){
 		$('*').css('transition-property','none');
 		$('.container-alt').css("width",currentSize*0.97+'px');
 		$('.col1').css("min-height",firstHeight+'px');
@@ -126,8 +126,6 @@ function resizeText() {
         $('aside').css("width", '45%')
         $('aside').css("margin-right", '0%')        
 		$('aside').css("margin-top", '20%')
-		$('.container-profile').css("font-size", '12px');
-        $('.container-alt').css("font-size", '12.5pt');
  
 		
 		$(".col1").css("font-size", newFontSize + 'px');
