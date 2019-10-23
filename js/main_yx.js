@@ -95,7 +95,6 @@ function resizeText() {
         $('img').css("max-width", '100%')
         $('img').css("margin-top", '80px')
         $('aside').css("width", '45%')
-        $('aside').css("margin-right", '5%')        
 		$('aside').css("margin-top", '25%')        
 
 		$(".col1").css("font-size", newFontSize + 'px');
