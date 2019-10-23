@@ -12,10 +12,10 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('.long').each(function(){
-		$(this).find('p').append("<a> [&#9652Less]</a>")
+		$(this).find('p').append("<a> [&#9652Collapse]</a>")
 	});
 	$('.short').each(function(){
-		$(this).find('p').append("<a> [&#9662More]</a>")
+		$(this).find('p').append("<a> [&#9662Expand]</a>")
 	});
 });
 
