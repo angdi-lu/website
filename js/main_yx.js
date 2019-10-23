@@ -90,9 +90,9 @@ function resizeText() {
         
         $('.section-left').css("margin-left", '10%')
         $('.section-left').css("margin-right", '10%')
-        $('.section-left').css("width", '40%')
+        $('.section-left').css("width", '20%')
         $('aside').css("margin-right", '10%')
-        $('aside').css("width", '30%')
+        $('aside').css("width", '40%')
 
 		
 		$(".col1").css("font-size", newFontSize + 'px');
