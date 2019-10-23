@@ -88,7 +88,7 @@ function resizeText() {
 		$('section-title').css("height",navHeight+'px');
 
 
-		$('.container-profile').css("width", currentSize*0.95+'px');
+		$('.container-profile').css("width", currentSize+'px');
         $('.section-left').css("width", '55%')
         $('aside').css("width", '45%')
         $('table').css("text-align", 'left')
