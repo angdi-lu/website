@@ -93,10 +93,10 @@ function resizeText() {
         $('.section-left').css("float", 'left')
         $('img').css("margin-left", '-20px')
         $('img').css("max-width", '100%')
-        $('img').css("margin-top", '100px')
+        $('img').css("margin-top", '80px')
         $('aside').css("width", '45%')
         $('aside').css("margin-right", '5%')        
-		$('aside').css("margin-top", '30%')        
+		$('aside').css("margin-top", '25%')        
 
 		$(".col1").css("font-size", newFontSize + 'px');
 		$('.container-alt').css("font-size", paraFontSize+ 'px');
