@@ -90,6 +90,7 @@ function resizeText() {
 
 		$('.container-profile').css("width", currentSize*0.9+'px');
         $('.section-left').css("width", '55%')
+        $('.section-left').css("float", 'none')
         $('aside').css("width", '45%')
 		
 		$(".col1").css("font-size", newFontSize + 'px');
