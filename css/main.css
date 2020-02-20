@@ -1,6 +1,11 @@
 /*   Modified From Jacopo Perego and Weijie Zhong's source code    */ 
 /* Navigation Bar */
 /* Written by Xin Yi */
+/* SMU Blue: #151C55 */
+/* SMU Gold: #8A704C */
+/* Renda Red: #AE0B2A */
+/* RUC AE Blue: #1F2276 */;
+
 
 *{
   margin:0pt;
@@ -9,7 +14,7 @@
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    background-color: #151C55;
+    background-color: #AE0B2A;
 
 }
 
@@ -36,13 +41,13 @@
 
 .navbar-custom .nav li.active {
     outline: none;
-    background-color: #8A704C ;/* COLOR OF SELCECTED TAB IN NAVBAR */
+    background-color: #1F2276 ;/* COLOR OF SELCECTED TAB IN NAVBAR */
     border-radius: 2px;
 }
 
 .navbar-custom.top-nav-collapse li.active {
     outline: none;
-    background-color: #151C55 ;/* COLOR OF SELCECTED TAB IN NAVBAR */
+    background-color: #AE0B2A ;/* COLOR OF SELCECTED TAB IN NAVBAR */
     border-radius: 2px;
 }
 
@@ -59,7 +64,7 @@
 .navbar-custom .nav li a.active {
     outline: 0;
     border-radius: 0px;
-    background-color: #8A704C;  /* SMU Gold */
+    background-color: #1F2276;  /* SMU Gold */
 }
 
 .navbar-custom.top-nav-collapse .nav li a:hover,
@@ -67,7 +72,7 @@
 .navbar-custom.top-nav-collapse .nav li a.active {
     outline: 0;
     border-radius: 0px;
-    background-color: #151C55;  /* SMU Blue */
+    background-color: #AE0B2A;  /* SMU Blue */
 }
 
 
@@ -76,14 +81,14 @@
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 0px;
-        background: #151C55 ;    /*BACKGROUND COLOR OF HOMEPAGE NAVBAR: SMU Blue*/
+        background: #AE0B2A ;    /*BACKGROUND COLOR OF HOMEPAGE NAVBAR: SMU Blue*/
         -webkit-transition: background 1s ease-in-out,padding 1s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background 1s ease-in-out,padding 1s ease-in-out;
     }
     .top-nav-collapse {
         padding: 0;
-        background-color: #8A704C; /* COLOR OF NAVBAR BACKGROUND*/
+        background-color: #1F2276; /* COLOR OF NAVBAR BACKGROUND*/
         opacity: 1; 
         transition: background 1s ease-in-out,padding 1s ease-in-out;
         -webkit-transition: background 1s ease-in-out,padding 1s ease-in-out;
